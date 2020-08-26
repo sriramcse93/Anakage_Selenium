@@ -13,49 +13,52 @@ public class Mobility_FreeCDrive {
 	    //Chatbot URL
 		driver.navigate().to("http://localhost:4200/");
 		// Self-Help Chatbot
-		driver.findElement(By.xpath("/html/body/app-root/app-chat/div/button/span/mat-icon/span")).click();
+		driver.findElement(By.xpath("/html/body/app-root/app-chat/div/img")).click();
 		Thread.sleep(2000);
 		//Mobility
-		driver.findElement(By.xpath("/html/body/app-root/app-chat/div[1]/div/div[2]/div/mat-card/button[6]")).click();
+		driver.findElement(By.xpath("//*[@id=\"main_menu_0_5\"]")).click();
 		Thread.sleep(1500);
 		//  Clean Temporary Files from C Drive Download
-		driver.findElement(By.xpath("//*[@id=\"sub_menu_2_1\"]/mat-card-content/mat-card-title/a")).click();
+		driver.findElement(By.xpath("//*[@id=\"sub_menu_2_1\"]/mat-card-content/mat-card-title")).click();
 		Thread.sleep(1500);
 		
 		// Was I able to solve your issue? Yes
-		/*driver.findElement(By.xpath("//*[@id=\"like_button_3\"]/span/mat-icon/span")).click();
-		Thread.sleep(1500);
-										
-		//Hope the solution helped you!! Do you need further assistance. No
-		driver.findElement(By.xpath("//*[@id=\"dislike_button_5\"]/span/mat-icon/span")).click();*/
-							/*       END               */
-		// Was I able to solve your issue? No
-		driver.findElement(By.xpath("//*[@id=\"dislike_button_3\"]/span/mat-icon/span")).click();
-		Thread.sleep(1500);
-									
-		//Do you want to create a ticket for the above issue Yes
-		driver.findElement(By.xpath("//*[@id=\"like_button_5\"]/span/mat-icon/span")).click();
-		Thread.sleep(1500);
-							/*   END    */
-		// Was I able to solve your issue? No
-		/*driver.findElement(By.xpath("//*[@id=\"dislike_button_3\"]/span/mat-icon/span")).click();
-		Thread.sleep(1500);
-									
-		//Do you want to create a ticket for the above issue No
-		driver.findElement(By.xpath("//*[@id=\"dislike_button_5\"]/span/mat-icon/span")).click();
-		Thread.sleep(1500);
-									
-		//You can comeback again to create the ticket anytime. Do need help on other problems? No
-		driver.findElement(By.xpath("//*[@id=\"dislike_button_6\"]/span/mat-icon/span")).click();
-		Thread.sleep(1500);*/
-							/*   END  */
-							
-		// Was I able to solve your issue? Yes
-		/*driver.findElement(By.xpath("//*[@id=\"like_button_3\"]/span/mat-icon/span")).click();
-		Thread.sleep(1500);
-		// Hope the solution helped you!! Do you need further assistance yes
-		driver.findElement(By.xpath("//*[@id=\"like_button_5\"]/span/mat-icon/span")).click();*/
-
+				/*driver.findElement(By.xpath("//*[@id=\"like_button_3\"]/span/mat-icon/span")).click();
+				Thread.sleep(2000);
+				
+				//Hope the solution helped you!! Do you need further assistance. No
+				driver.findElement(By.xpath("//*[@id=\"dislike_button_5\"]/span/mat-icon/span")).click(); */
+				
+				/* END */
+				
+				// Was I able to solve your issue? No
+				driver.findElement(By.xpath("//*[@id=\"dislike_button_3\"]/span/mat-icon/span")).click();
+				Thread.sleep(2000);
+				
+				//Do you want to create a ticket for the above issue Yes
+				driver.findElement(By.xpath("//*[@id=\"like_button_5\"]/span/mat-icon/span")).click();
+				Thread.sleep(2000);
+				/* END */
+				
+				// Was I able to solve your issue? No
+				/*driver.findElement(By.xpath("//*[@id=\"dislike_button_3\"]/span/mat-icon/span")).click();
+				Thread.sleep(2000);
+						
+				//Do you want to create a ticket for the above issue No
+				driver.findElement(By.xpath("//*[@id=\"dislike_button_5\"]/span/mat-icon/span")).click();
+				Thread.sleep(2000);
+				
+				//You can comeback again to create the ticket anytime. Do need help on other problems? No
+				driver.findElement(By.xpath("//*[@id=\"dislike_button_6\"]/span/mat-icon/span")).click();
+				Thread.sleep(2000);*/
+				/* END */
+				
+				// Was I able to solve your issue? Yes
+			    /*driver.findElement(By.xpath("//*[@id=\"like_button_3\"]/span/mat-icon/span")).click();
+				Thread.sleep(2000);
+				
+				// Hope the solution helped you!! Do you need further assistance yes
+				driver.findElement(By.xpath("//*[@id=\"like_button_5\"]/span/mat-icon/span")).click();*/
 	}
 
 }
